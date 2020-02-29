@@ -3,6 +3,8 @@ $(function () {
   var form = layui.form
   var layer = layui.layer
 
+  console.log($('#link-reg'))
+
   // 点击了注册的链接
   $('#link-reg').on('click', function () {
     $('.login-box').hide() // 隐藏
